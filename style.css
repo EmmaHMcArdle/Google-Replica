@@ -1,0 +1,68 @@
+
+
+
+.topnav ul {
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: yellow;*/
+    position: fixed;
+    top: 0px;
+}
+
+li a {
+    display: inline-block;
+    float: left;
+    /*display: block;*/
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-top: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    vertical-align: middle;
+    /* padding-left: 15px; */
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    position: static;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+#icon_1 img {
+    height: 20px;
+    width: auto;
+}
+
+#sign_in img {
+    height: 30px;
+    width: auto;
+}
+
+li .left {
+    opacity: 0.75;
+}
+
+li .right {
+    float: right;
+}
+
+#logo img{
+    padding-top: 159px;
+}
+main {
+    text-align: -webkit-center;
+}
+
+input {
+    text-align: center;
+    display: flex;
+}
