@@ -21,12 +21,12 @@ li a {
     /*display: block;*/
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     text-decoration: none;
     padding-top: 20px;
     color: rgba(0, 0, 0, 0.87);
     vertical-align: middle;
-    /* padding-left: 15px; */
+    padding-left: 15px;
     font-family: arial, sans-serif;
     font-size: 13px;
     line-height: 24px;
@@ -38,13 +38,13 @@ li a:hover {
 }
 
 #icon_1 img {
-    height: 20px;
-    width: auto;
+    height: 17px;
+    width: 17px;
+    padding-top: 4px;
 }
 
-#sign_in img {
-    height: 30px;
-    width: auto;
+li #sign_in {
+    color: red;
 }
 
 li .left {
@@ -58,7 +58,7 @@ li .right {
 #logo img{
     padding-top: 159px;
 }
-main {
+body {
     text-align: -webkit-center;
 }
 
