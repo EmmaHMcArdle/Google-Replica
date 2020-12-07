@@ -129,12 +129,12 @@ img#audio {
     right: 10px;
 }
 
-input.bigboys {
+button.buttons {
     display: inline-block;
     margin-top: 10px;
 }
 
-.bigboys {
+.buttons {
     background-color: #f2f2f2;
     color: #5f6368;
     font-family: arial, sans-serif;
@@ -151,7 +151,7 @@ input.bigboys {
     text-align: center;
 }
 
-.bigboys:hover {
+.buttons:hover {
     color: black;
     border: solid;
     border-width: 1px;
