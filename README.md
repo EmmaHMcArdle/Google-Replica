@@ -1,6 +1,6 @@
 Replica of Google's Homepage
 
-![Getting Started](/Users/emmamcardle/programming_projects/google-replica/images/homepage.png)
+![Getting Started](/Users/emmamcardle/programming_projects/google-replica/images/homepage_screenshot.png)
 
 
 
