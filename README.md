@@ -20,7 +20,7 @@ Replica of Google's Advanced Search Page:
 The advanced page mimics Google's own search behaviors. It will bypass the normal result pages to more specified searches.
 
 
-I attempted to make my pages look strikingly similar to the real Google images page. I made sure the same hover, focus and other selectors were matching. And I did most of it independently but I did use Dev Tools in Chrome to match colors and certain specific styling.
+I attempted to make my pages look strikingly similar to the real Google pages. I made sure the same hover, focus and other selectors were matching. I utilized Dev Tools in Chrome to match colors and certain specific styling.
 
 
 In this project I used front-end tools, CSS and HTML as well as the terminal with git and DevTools.
