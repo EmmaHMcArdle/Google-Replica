@@ -1,0 +1,187 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    text-align: -webkit-center;
+}
+
+.topnav ul {
+    width: 96%;
+    list-style-type: none;
+    padding-left: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.topnav li a {
+    display: inline;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 17px;
+    padding-right: 5px;
+    color: rgba(0, 0, 0, 0.87);
+    vertical-align: middle;
+    padding-left: 16px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    position: static;
+    border-radius: 2px;
+}
+
+.topnav li .right {
+    float: right;
+}
+
+#google {
+    float: left;
+    width: 92px;
+    height: 33px;
+    margin-top: 4px;
+}
+
+#icon_1 img {
+    height: 17.5px;
+    width: 17.5px;
+    padding-top: 6px;
+    margin-left: 9px;
+}
+
+li #sign_in {
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    padding: 0 13px;
+    margin-top: 17px;
+    margin-left: 18px;
+}
+
+#logo img{
+    padding-top: 157px;
+    width: 272px;
+}
+
+#container {
+    width: 515px;
+    height: 40px;
+    margin-top: 18px;
+    text-align: left;
+    padding: 5px 8px 0 16px;
+    border-radius: 30px;
+    display: flex;
+    flex: 1;
+    border: 1px solid #dfe1e5;
+}
+
+#container:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+input#search {
+    width: 70%;
+    height: 100%;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+    margin: 0 auto;
+    color: black;
+    border: 0;
+}
+
+#camera {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 15px;
+    top: 6px;
+}
+
+#search:focus {
+    border: 0;
+    outline: 0;
+}
+
+#search::-webkit-search-cancel-button{
+    position:relative;
+    right: 20px;
+    /* -webkit-appearance: none; */
+    /* background-image: url("images/photo_camera_grey600_24dp.png"); */
+    /* height: 5px;
+    width: 5px; */
+    /* color: gray; */
+}
+
+#magnify_glass {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 8px;
+    right: 10px;
+}
+
+#mg {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 6px;
+    fill: #4285f4;
+    right: 10px;
+  }
+
+img#audio {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+
+#footer ul{
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 35px;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid  #dadce0;
+    left: -1px;
+}
+
+#footer li a {
+    display: inline;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 11px;
+    color: #70757a;
+    vertical-align: middle;
+    padding-left: 27px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    position: static;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+#footer li a:hover {
+    text-decoration: underline;
+}
+
+#footer li .right {
+        float: right;
+        margin-right: 25px;
+        padding-left: 0px;
+    }

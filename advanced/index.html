@@ -1,0 +1,63 @@
+<!doctype html>
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <link rel="icon" href="/Users/emmamcardle/programming_projects/google-homepage/google.png">
+</head> 
+
+<title>Google Advanced Search</title>
+
+<body>
+    <nav class="topnav">
+        <ul>
+            <li><a class="left" id="logo" href="/Users/emmamcardle/programming_projects/google-homepage/homepage/index.html"><img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"></a></li>
+            <li><a class="right" id="sign_in" href="#sign_in">Sign In</a></li>
+            <li><a class="right" id="icon_1" href="#"><img src="https://i.imgur.com/QEN55Gc.png" alt="Google features icon."></a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Advanced Search</h1>
+    </header>
+   
+    <div class="fields"> 
+        <form action="http://www.google.com/search" method="get">
+            <label id="t1">Find pages with...</label>
+        <div class="blank"></div>
+        <div class="instruct" id="t2">To do in this search box</div>
+        <br>
+            <label>all these words:</label>
+            <input type="text" name="as_q">
+            <div class="instruct">Type the important words: <span>tricolor rat terrier</span></div>
+            <br>
+        <div>
+                <label>this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <div class="instruct">Put exact words in quotes: <span>"rat terrier"</span></div>
+                <br>
+        </div>
+        <div>
+                <label>any of these words:</label>
+                <input type="text" name="as_oq">
+                <div class="instruct"> Type <span> OR </span> between all the words you want: <span>miniature OR standard</span></div>
+                <br>
+        </div>
+            <div>
+                <label>none of these words:</label>
+                <input type="text" name="as_eq">
+                <div class="instruct"> Put a minus sign just before words you don't want: <span>-rodent, -"Jack Russell"</span></div>
+                <br>
+            </div>
+            <div class="line"></div>
+        </div>
+            <input id="submit" type="submit" value="Advanced Search">
+        </form>
+
+<nav id="footer">
+    <ul>
+        <li><a href="#advertising">Advertising</a></li>
+        <li><a href="#business">Business</a></li>
+        <li><a href="#how_search_works">How Search works</a></li>
+    </ul>
+</nav>
+    
+</body>
+

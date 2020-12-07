@@ -1,4 +1,6 @@
-
+* {
+    padding: 0;
+}
 
 .topnav ul {
     width: 96%;
@@ -11,7 +13,7 @@
 }
 
 .topnav li a {
-    display: inline-block;
+    display: inline;
     float: left;
     color: black;
     text-align: center;
@@ -66,9 +68,9 @@ body {
     text-align: -webkit-center;
 }
 
-input#search {
-    width: 484px;
-    height: 44px;
+#container {
+    width: 520px;
+    height: 40px;
     margin: 0 auto;
     margin-top: 25px;
     text-align: left;
@@ -76,34 +78,54 @@ input#search {
     border-radius: 30px;
     display: flex;
     flex: 1;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #9aa0a6;
-    opacity: 30%;
+    border: 1px solid #dfe1e5;
 }
+
+#container:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+input#search {
+    width: 85%;
+    height: 100%;
+    position: relative;
+    bottom: 5px;
+    margin: 0 auto;
+    color: black;
+    border: 0;
+}
+
+#search:focus {
+    border: 0;
+    outline: 0;
+}
+
+#search::-webkit-search-cancel-button{
+    position:relative;
+    right: 20px;
 
 svg {
   position: relative;
   width: 20px;
   height: 20px;
-  right: 215px;
-  bottom: 40px;
+  top: 6px;
   color: #9aa0a6;
   fill: currentColor;
 }
 
-path#kill_me {
+path#magnify_glass {
     width: 14px;
     height: auto;
-    font-size: small;
+    font-size: small; 
 }
 
 img#audio {
     width: 24px;
     height: 24px;
     position: relative;
-    bottom: 36px;
-    left: 205px;
+    top: 5px;
+    right: 10px;
 }
 
 input.bigboys {
@@ -118,7 +140,9 @@ input.bigboys {
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     font-size: 14px;
-    margin: 11px 4px;
+    margin: 11px 10px;
+    position: relative;
+    top: 20px;
     padding: 0 16px;
     line-height: 27px;
     height: 36px;
@@ -143,11 +167,12 @@ input.bigboys {
     position: absolute;
     bottom: 0;
     background-color: #f2f2f2;
+    border-top: 1px solid  #dadce0;
     left: -1px;
 }
 
 #footer li a {
-    display: inline-block;
+    display: inline;
     float: left;
     text-align: center;
     text-decoration: none;

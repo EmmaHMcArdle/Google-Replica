@@ -1,0 +1,247 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: -webkit-center;
+    font-family: arial, sans-serif;
+    font-size: 100%;
+}
+
+.topnav ul {
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    height: 60px;
+    /* position: fixed; */
+}
+
+.topnav li a {
+    display: inline;
+    float: left;
+    color: black;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.87);
+    vertical-align: middle;
+    padding-left: 16px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    /* position: static; */
+    border-radius: 2px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.topnav li .right {
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+#google {
+    float: left;
+    width: 92px;
+    height: 33px;
+    margin-top: 8px;
+}
+
+#icon_1 img {
+    height: 17.5px;
+    width: 17.5px;
+    padding-top: 6px;
+    margin-left: 9px;
+}
+
+li #sign_in {
+    color: #fff;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));
+    padding: 0 13px;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+header {
+    height: 75px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+h1 {
+    color: #d93025;
+    float: left;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 21px;
+    margin: 25px 35px;
+}
+
+.top-deck {
+    width: 100%;
+    clear: both;
+    /* float: left; */
+}
+
+#t1 {
+    font-size: 16px;
+    /* float: left; */
+    
+}
+
+#t2 {
+    height: 30px;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    color: #777;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.blank {
+    float: left;
+    height: 25px;
+    color: black;
+    vertical-align: middle;
+    padding-right: 16px;
+    min-width: 167px;
+    width: 45%;
+    padding: 1px 8px;
+    
+}
+
+.fields {
+    width: 100%;
+    height: 250px;
+    clear: both;
+    border: 0;
+    margin: 40px 2% 0 30px;
+    text-align: left;
+}
+
+label {
+    float: left;
+    clear: both;
+    min-width: 167px;
+    width: 16px;
+    height: 42px;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    color: #333333;
+}
+div input {
+    height: 25px;
+    color: black;
+    vertical-align: middle;
+    padding-right: 16px;
+    min-width: 167px;
+    width: 45%;
+    float: left;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    padding: 1px 8px;
+}
+
+div input:focus {
+    outline: 0;
+    border: 1px solid #4d90fe;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.instruct {
+    min-width: 160px;
+    width: 32%;
+    margin: 0 0 8px 1%;
+    float: left;
+    font-size: 11px;
+    /* vertical-align: middle; */
+    padding-left: 5px;
+    /* position: relative; */
+    color: #555555;
+}
+
+div span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    /* white-space: pre; */
+}
+
+.line {
+    /* margin: 18px 0; */
+    border-top: 1px solid #ebebeb;
+    clear: both;
+    margin-top: 150px;
+}
+
+#line2 {
+    margin-top: 100px;
+}
+
+#submit {
+    background-color:#4d90fe;
+    min-width: 120px;
+    width: 12%;
+    padding: 0 12px;
+    height: 30px;
+    float: right;
+    /* margin: 10px 0; */
+    margin-bottom: 9px;
+    margin-top: 35px;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
+    border: 1px solid #3079ed;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    right: 400px;
+    
+}
+
+#submit:hover {
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+    border: 1px solid #2f5bb7;
+}
+
+
+#footer ul{
+    width: 100%;
+    list-style-type: none;
+    margin-right: 35px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    left: -1px;
+}
+
+#footer li a {
+    display: inline;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 11px;
+    color: #5f6368;
+    vertical-align: middle;
+    padding-left: 27px;
+    font-size: 14px;
+    line-height: 28px;
+    position: static;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+#footer li a:hover {
+    text-decoration: underline;
+}
